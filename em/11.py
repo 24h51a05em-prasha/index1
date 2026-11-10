@@ -1,0 +1,7 @@
+emp_id=int(input("enter employee id:"))
+emp_name= input("enter employeee name")
+emp_salary=float(input("enter employee salary:"))
+print("\n ...employee Details..")
+print("employee ID:",emp_id)
+print("employee name:",emp_name)
+print("employee salary:",emp_salary)

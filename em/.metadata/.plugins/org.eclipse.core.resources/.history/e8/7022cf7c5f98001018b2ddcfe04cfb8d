@@ -1,0 +1,29 @@
+package main22;
+
+import java.util.*;
+
+public class occurences{
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		 String n = sc.nextLine();
+		 char firstchar=n.charAt(0);
+		 char lastchar =n.charAt(n.length()-1);
+
+		 int x=character.getNumericValiue(firstchar);
+		 int y=character.getNumericValiue(lastchar);
+		 
+		 
+		int count = 0;
+		for(int i=0;i<n.length();i++)
+		{
+			if (n.charAt(i)!=' ')
+			{
+				count++;
+			}
+			
+		}
+		System.out.println(count);
+	}
+}
+}

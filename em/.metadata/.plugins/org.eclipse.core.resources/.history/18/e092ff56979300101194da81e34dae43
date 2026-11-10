@@ -1,0 +1,40 @@
+package main22;
+
+import java.util.*;
+
+public class string {
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		 string n = sc.nextLine();
+		int count = 0;
+		for(int i=0;i<n.length();i++)
+		{
+			if (n.charAt(i)!=' ')
+			{
+				count++;
+			}
+			
+		}
+		System.out.println(count);
+			
+		
+
+	}
+
+	private static void newline() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private int length() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	private char charAt(int i) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

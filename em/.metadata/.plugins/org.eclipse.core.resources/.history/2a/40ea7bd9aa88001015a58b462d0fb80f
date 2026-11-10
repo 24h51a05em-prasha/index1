@@ -1,0 +1,21 @@
+package patternn;
+
+import java.util.*;
+
+public class arrays {
+
+	public static void main(String[] args) {
+		Scanner sc  = new Scanner(System.in);
+int a=4;
+int b=5;
+int temp = a;
+				a=b;
+				b=temp;
+				
+				
+				
+				
+		System.out.print(b "" a);
+			}
+
+		}

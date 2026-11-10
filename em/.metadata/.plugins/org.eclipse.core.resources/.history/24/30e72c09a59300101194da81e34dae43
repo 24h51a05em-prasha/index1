@@ -1,0 +1,26 @@
+package main22;
+
+import java.util.Scanner;
+
+public class character {
+	public static void main(String[] args) {
+
+	Scanner sc= new Scanner(System.in);
+	 String s = sc.nextLine();
+	 int x= sc.nextInt();
+	 int n =sc.nextInt();
+	 int 
+	for(int i=0;i<s;i++)
+	{
+		if (n%2==0)
+		{
+			System.out.println("0");
+		}
+		else
+		{
+			System.out.println(x);
+		}
+		
+	}
+}
+}

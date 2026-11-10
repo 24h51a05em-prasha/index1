@@ -1,0 +1,25 @@
+package main22;
+
+import java.util.Scanner;
+
+public class character {
+	public static void main(String[] args) {
+
+	Scanner sc= new Scanner(System.in);
+	 String s = sc.nextLine();
+	 int x= sc.nextInt();
+	 int n =sc.nextInt();
+
+	{
+		if (n%x==0)
+		{
+			System.out.println("yes");
+		}
+		else
+		{
+			System.out.println("no");
+		}
+		
+	}
+}
+}
